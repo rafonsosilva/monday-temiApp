@@ -1,0 +1,31 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<dimen name="material_spacing_small">8dp</dimen>
+	<dimen name="material_spacing_medium">16dp</dimen>
+	<dimen name="material_spacing_large">24dp</dimen>
+	<dimen name="material_bottom_sheet_item_size">56dp</dimen>
+	<dimen name="material_bottom_sheet_item_text_size">16sp</dimen>
+	
+	<!-- explore -->
+	<dimen name="explore_menbutton_image_view_margin_top">37dp</dimen>
+	<dimen name="explore_womenbutton_image_view_margin_end">-4dp</dimen>
+	<dimen name="explore_shoesbutton_image_view_margin_start">-2dp</dimen>
+	<dimen name="explore_shoesbutton_image_view_margin_top">75dp</dimen>
+	<dimen name="explore_accessoriesbutton_image_view_margin_top">75dp</dimen>
+	
+	<!-- afterAddToBag -->
+	<dimen name="after_add_to_bag_pickupicon_image_view_margin_top">4dp</dimen>
+	<dimen name="after_add_to_bag_pickupicon_image_view_margin_end">9dp</dimen>
+	
+	<!-- shop -->
+	<dimen name="shop_next_image_view_margin_top">17dp</dimen>
+	<dimen name="shop_next_two_image_view_margin_top">8dp</dimen>
+	
+	<!-- addTryOn -->
+	<dimen name="add_try_on_addtobagbutton_image_view_margin_start">-10dp</dimen>
+	<dimen name="add_try_on_addtobagbutton_image_view_margin_top">37dp</dimen>
+	
+	<!-- menu -->
+	<dimen name="menu_shopbutton_image_view_margin_end">-1dp</dimen>
+</resources>

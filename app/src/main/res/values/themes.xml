@@ -1,0 +1,30 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/color_primary</item>
+		<item name="colorPrimaryDark">@color/color_primary_dark</item>
+		<item name="colorAccent">@color/color_accent</item>
+	</style>
+	
+	<!-- explore -->
+	<style name="ExploreTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- enjoy -->
+	<style name="EnjoyTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- goToCounter -->
+	<style name="GoToCounterTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- afterAddToBag -->
+	<style name="AfterAddToBagTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- shop -->
+	<style name="ShopTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- addTryOn -->
+	<style name="AddTryOnTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- menu -->
+	<style name="MenuTheme" parent="Theme.AppCompat.NoActionBar"/>
+</resources>

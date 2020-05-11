@@ -1,0 +1,23 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/enjoy_constraint_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/enjoy_enjoy_constraint_layout_background_color">
+
+	<ImageView
+		android:id="@+id/enjoybackground_image_view"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:scaleType="centerCrop"
+		android:src="@drawable/enjoybackground"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintHorizontal_weight="1"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="0dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

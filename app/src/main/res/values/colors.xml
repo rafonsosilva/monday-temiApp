@@ -1,0 +1,32 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<color name="color_primary">#000000</color>
+	<color name="color_primary_dark">#000000</color>
+	<color name="color_accent">#000000</color>
+	<color name="click_overlay">#555555</color>
+	<color name="default_hint">#C6C6CB</color>
+	<color name="material_bottom_sheet_title">#8a000000</color>
+	<color name="material_bottom_sheet_item">#de000000</color>
+	
+	<!-- explore -->
+	<color name="explore_explore_constraint_layout_background_color">#FFFFFF</color>
+	
+	<!-- enjoy -->
+	<color name="enjoy_enjoy_constraint_layout_background_color">#FFFFFF</color>
+	
+	<!-- goToCounter -->
+	<color name="go_to_counter_gotocounter_constraint_layout_background_color">#FFFFFF</color>
+	
+	<!-- afterAddToBag -->
+	<color name="after_add_to_bag_afteraddtobag_constraint_layout_background_color">#FFFFFF</color>
+	
+	<!-- shop -->
+	<color name="shop_shop_constraint_layout_background_color">#FFFFFF</color>
+	
+	<!-- addTryOn -->
+	<color name="add_try_on_addtryon_constraint_layout_background_color">#FFFFFF</color>
+	
+	<!-- menu -->
+	<color name="menu_menu_constraint_layout_background_color">#FFFFFF</color>
+</resources>

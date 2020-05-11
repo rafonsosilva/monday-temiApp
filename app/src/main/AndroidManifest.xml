@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.company_name.monday">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".descrp"></activity>
+
+        <meta-data
+            android:name="com.robotemi.sdk.metadata.SKILL"
+            android:value="monday" />
+
+        <activity
+            android:name=".activity.explore"
+            android:label="@string/explore_title"
+            android:theme="@style/ExploreTheme" />
+        <activity
+            android:name=".activity.enjoy"
+            android:label="@string/enjoy_title"
+            android:theme="@style/EnjoyTheme" />
+        <activity
+            android:name=".activity.goToCounter"
+            android:label="@string/go_to_counter_title"
+            android:theme="@style/GoToCounterTheme" />
+        <activity
+            android:name=".activity.afterAddToBag"
+            android:label="@string/after_add_to_bag_title"
+            android:theme="@style/AfterAddToBagTheme" />
+        <activity
+            android:name=".activity.shop"
+            android:label="@string/shop_title"
+            android:theme="@style/ShopTheme" />
+        <activity
+            android:name=".activity.addTryOn"
+            android:label="@string/add_try_on_title"
+            android:theme="@style/AddTryOnTheme" />
+        <activity
+            android:name=".activity.TryOn"
+            android:label="@string/add_try_on_title"
+            android:theme="@style/AddTryOnTheme" />
+        <activity
+            android:name=".activity.UploadToFormaActivity"
+            android:label="@string/add_try_on_title"
+            android:theme="@style/AddTryOnTheme" />
+        <activity
+            android:name=".activity.menu"
+            android:label="@string/menu_title"
+            android:theme="@style/MenuTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

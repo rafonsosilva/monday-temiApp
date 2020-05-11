@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Project level resources -->
+    <string name="app_name">monday</string>
+
+    <!-- explore -->
+    <string name="explore_title"></string>
+
+    <!-- enjoy -->
+    <string name="enjoy_title"></string>
+
+    <!-- goToCounter -->
+    <string name="go_to_counter_title"></string>
+
+    <!-- afterAddToBag -->
+    <string name="after_add_to_bag_title"></string>
+
+    <!-- shop -->
+    <string name="shop_title"></string>
+
+    <!-- addTryOn -->
+    <string name="add_try_on_title"></string>
+
+    <!-- menu -->
+    <string name="menu_title"></string>
+</resources>
