@@ -94,7 +94,6 @@ class menu: AppCompatActivity() {
 	fun onClickAbout(view: View) {
 		val intent = Intent(this, descrp::class.java).apply {  }
 		startActivity(intent)
-		Toast.makeText(applicationContext,"this is toast message", Toast.LENGTH_SHORT).show()
 	}
 
 }

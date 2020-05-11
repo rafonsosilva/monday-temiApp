@@ -10,8 +10,8 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@drawable/icon"
+        android:label="RoboRetail"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
@@ -19,7 +19,7 @@
 
         <meta-data
             android:name="com.robotemi.sdk.metadata.SKILL"
-            android:value="monday" />
+            android:value="RoboRetail" />
 
         <activity
             android:name=".activity.explore"
