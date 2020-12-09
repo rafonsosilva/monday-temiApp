@@ -1,5 +1,5 @@
 
-package com.company_name.monday.activity
+package com.gbc.monday.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,8 +7,8 @@ import android.os.Environment
 import android.os.Handler
 import android.util.Log
 import android.view.View
-import com.company_name.monday.R
-import com.company_name.monday.domain.MainUpload
+import com.gbc.monday.R
+import com.gbc.monday.domain.MainUpload
 import com.otaliastudios.cameraview.CameraListener
 import com.otaliastudios.cameraview.PictureResult
 import com.robotemi.sdk.Robot

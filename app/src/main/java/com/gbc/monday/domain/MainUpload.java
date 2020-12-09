@@ -1,4 +1,4 @@
-package com.company_name.monday.domain;
+package com.gbc.monday.domain;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -9,10 +9,10 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 
-import com.company_name.monday.UploadAPI.Model.FormaResponse;
-import com.company_name.monday.UploadAPI.Model.RawBody;
-import com.company_name.monday.UploadAPI.Service.FormaUploadInterface;
-import com.company_name.monday.activity.UploadToFormaActivity;
+import com.gbc.monday.UploadAPI.Model.FormaResponse;
+import com.gbc.monday.UploadAPI.Model.RawBody;
+import com.gbc.monday.UploadAPI.Service.FormaUploadInterface;
+import com.gbc.monday.activity.UploadToFormaActivity;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;

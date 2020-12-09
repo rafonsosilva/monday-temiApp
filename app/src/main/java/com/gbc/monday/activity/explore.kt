@@ -2,14 +2,14 @@
  * Created by Joe Taveras.
  */
 
-package com.company_name.monday.activity
+package com.gbc.monday.activity
 
 import android.content.Intent
 import android.os.Bundle
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.view.View
-import com.company_name.monday.R
+import com.gbc.monday.R
 import com.robotemi.sdk.Robot
 import com.robotemi.sdk.TtsRequest
 
@@ -38,24 +38,24 @@ class explore: AppCompatActivity() {
 
 	}
 
-	fun goMen(view: View) {
-		Robot.getInstance().goTo("mens clothing")
-		Robot.getInstance().speak(TtsRequest.create("Please follow me to the Men's clothing.", false))
+	fun goPackingSupplies(view: View) {
+		Robot.getInstance().goTo("Packing supplies")
+		Robot.getInstance().speak(TtsRequest.create("Please follow me to the Packing supplies.", false))
 	}
 
-	fun goWomen(view: View) {
-		Robot.getInstance().goTo("womens clothing")
-		Robot.getInstance().speak(TtsRequest.create("Please follow me to the Women's clothing.", false))
+	fun goStorageDemoSpace(view: View) {
+		Robot.getInstance().goTo("Storage demo space")
+		Robot.getInstance().speak(TtsRequest.create("Please follow me to the Storage demo space.", false))
 	}
 
-	fun goShoes(view: View) {
-		Robot.getInstance().goTo("shoes")
-		Robot.getInstance().speak(TtsRequest.create("Please follow me to the Shoes.", false))
+	fun goOtherRetail(view: View) {
+		Robot.getInstance().goTo("Other retail")
+		Robot.getInstance().speak(TtsRequest.create("Please follow me to other retail products.", false))
 	}
 
-	fun goAccessories(view: View) {
-		Robot.getInstance().goTo("accessories")
-		Robot.getInstance().speak(TtsRequest.create("Please follow me to the accessories.", false))
+	fun goWashroom(view: View) {
+		Robot.getInstance().goTo("Washroom")
+		Robot.getInstance().speak(TtsRequest.create("Please follow me to the washroom.", false))
 	}
 
 	fun backFromExplore(view: View) {

@@ -2,9 +2,9 @@
  * Created by Joe Taveras.
  */
 
-package com.company_name.monday.activity
+package com.gbc.monday.activity
 
-import com.company_name.monday.R
+import com.gbc.monday.R
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.content.Intent

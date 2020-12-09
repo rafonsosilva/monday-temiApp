@@ -1,5 +1,4 @@
-<androidx.constraintlayout.widget.ConstraintLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:app="http://schemas.android.com/apk/res-auto"
 	xmlns:tools="http://schemas.android.com/tools"
 	android:id="@+id/menu_constraint_layout"
@@ -8,45 +7,31 @@
 	android:background="@color/menu_menu_constraint_layout_background_color">
 
 	<ImageView
-		android:id="@+id/shopbutton_image_view"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:onClick="shop"
-		android:scaleType="centerCrop"
-		android:src="@drawable/shopbutton"
-		app:layout_constraintRight_toRightOf="parent"
-		app:layout_constraintTop_toBottomOf="@+id/topbar_image_view" />
-
-	<ImageView
 		android:id="@+id/explorebutton_image_view"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:onClick="explore"
 		android:scaleType="centerCrop"
-		android:src="@drawable/explorebutton"
-		app:layout_constraintLeft_toLeftOf="parent"
+		android:src="@drawable/exploremainscreen840x580"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.536"
+		app:layout_constraintStart_toStartOf="parent"
 		app:layout_constraintTop_toBottomOf="@+id/topbar_image_view" />
 
 	<ImageView
 		android:id="@+id/topbar_image_view"
-		android:layout_width="0dp"
-		android:layout_height="wrap_content"
-		android:scaleType="centerCrop"
-		android:src="@drawable/topbar"
-		app:layout_constraintHorizontal_weight="1"
-		app:layout_constraintLeft_toLeftOf="parent"
-		app:layout_constraintRight_toRightOf="parent"
-		app:layout_constraintTop_toTopOf="parent"
-		tools:layout_editor_absoluteX="0dp"
-		tools:layout_editor_absoluteY="0dp"/>
+		android:layout_width="1280dp"
+		android:layout_height="117dp"
+		android:src="@drawable/maintopbar"
+		app:layout_constraintTop_toTopOf="parent" />
 
 	<ImageView
 		android:id="@+id/bottombar_image_view"
-		android:layout_width="0dp"
-		android:layout_height="wrap_content"
+		android:layout_width="1292dp"
+		android:layout_height="100dp"
 		android:onClick="personalAssistantMenu"
 		android:scaleType="centerCrop"
-		android:src="@drawable/bottombar"
+		android:src="@drawable/customerservice"
 		app:layout_constraintBottom_toBottomOf="parent"
 		app:layout_constraintHorizontal_weight="1"
 		app:layout_constraintLeft_toLeftOf="parent"
@@ -56,8 +41,8 @@
 		android:id="@+id/about"
 		android:layout_width="30dp"
 		android:layout_height="30dp"
-		android:layout_marginTop="20dp"
-		android:layout_marginEnd="20dp"
+		android:layout_marginTop="752dp"
+		android:layout_marginEnd="16dp"
 		android:background="@drawable/about"
 		android:onClick="onClickAbout"
 		android:text=" "

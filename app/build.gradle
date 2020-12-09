@@ -10,7 +10,7 @@ android {
     compileSdkVersion 28
 
     defaultConfig {
-        applicationId "com.company_name.monday"
+        applicationId "com.gbc.monday"
         minSdkVersion 23
         targetSdkVersion 28
         versionCode 1

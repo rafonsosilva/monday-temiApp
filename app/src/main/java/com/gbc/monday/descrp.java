@@ -1,4 +1,4 @@
-package com.company_name.monday;
+package com.gbc.monday;
 
 import androidx.appcompat.app.AppCompatActivity;
 

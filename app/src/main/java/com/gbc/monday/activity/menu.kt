@@ -3,7 +3,7 @@
  * Improved by Nir Frenkel
  */
 // This is the main menu of this app
-package com.company_name.monday.activity
+package com.gbc.monday.activity
 
 import android.Manifest
 import android.app.Activity
@@ -13,11 +13,10 @@ import android.content.pm.PackageManager
 import android.os.Bundle
 import android.os.Handler
 import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
-import com.company_name.monday.R
-import com.company_name.monday.descrp
+import com.gbc.monday.R
+import com.gbc.monday.descrp
 import com.robotemi.sdk.Robot
 import com.robotemi.sdk.TtsRequest
 

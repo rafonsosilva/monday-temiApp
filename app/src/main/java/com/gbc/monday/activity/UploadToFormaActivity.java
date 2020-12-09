@@ -1,4 +1,4 @@
-package com.company_name.monday.activity;
+package com.gbc.monday.activity;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -10,13 +10,13 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.company_name.monday.R;
+import com.gbc.monday.R;
 import com.robotemi.sdk.Robot;
 import com.robotemi.sdk.TtsRequest;
 
 import java.io.File;
 
-import static com.company_name.monday.domain.MainUpload.FORMA_STRING_TAG;
+import static com.gbc.monday.domain.MainUpload.FORMA_STRING_TAG;
 
 public class UploadToFormaActivity extends AppCompatActivity {
 

@@ -1,62 +1,60 @@
-<androidx.constraintlayout.widget.ConstraintLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:app="http://schemas.android.com/apk/res-auto"
 	xmlns:tools="http://schemas.android.com/tools"
 	android:id="@+id/explore_constraint_layout"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	android:background="@color/explore_explore_constraint_layout_background_color">
+	android:backgroundTintMode="add">
 
 	<ImageView
-		android:id="@+id/womenbutton_image_view"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:onClick="goWomen"
-		android:scaleType="center"
-		android:src="@drawable/womenbutton"
-		app:layout_constraintRight_toRightOf="parent"
-		app:layout_constraintTop_toBottomOf="@+id/topbarexplore_image_view" />
-
-	<ImageView
-		android:id="@+id/menbutton_image_view"
+		android:id="@+id/bubble_image_view"
 		android:layout_width="646dp"
-		android:layout_height="275dp"
-		android:layout_marginTop="124dp"
-		android:onClick="goMen"
+		android:layout_height="300dp"
+		android:onClick="goStorageDemoSpace"
 		android:scaleType="centerCrop"
-		android:src="@drawable/menbutton"
-		app:layout_constraintLeft_toLeftOf="parent"
-		app:layout_constraintTop_toTopOf="parent" />
-
-	<ImageView
-		android:id="@+id/accessoriesbutton_image_view"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_marginTop="266dp"
-		android:onClick="goAccessories"
-		android:scaleType="centerCrop"
-		android:src="@drawable/accessoriesbutton"
+		android:src="@drawable/storagedemospace_labeled"
+		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/topbarexplore_image_view" />
+
+	<ImageView
+		android:id="@+id/largeBoxes_image_view"
+		android:layout_width="646dp"
+		android:layout_height="300dp"
+		android:onClick="goPackingSupplies"
+		android:scaleType="centerCrop"
+		android:src="@drawable/packingsupplies_labeled"
+		app:layout_constraintStart_toStartOf="parent"
 		app:layout_constraintTop_toBottomOf="@+id/topbarexplore_image_view" />
 
 	<ImageView
-		android:id="@+id/shoesbutton_image_view"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_marginTop="266dp"
-		android:onClick="goShoes"
+		android:id="@+id/humanHelp_image_view"
+		android:layout_width="646dp"
+		android:layout_height="300dp"
+		android:onClick="goWashroom"
 		android:scaleType="centerCrop"
-		android:src="@drawable/shoesbutton"
-		app:layout_constraintLeft_toLeftOf="parent"
-		app:layout_constraintTop_toBottomOf="@+id/topbarexplore_image_view" />
+		android:src="@drawable/washroom_labeled"
+		app:layout_constraintStart_toEndOf="@+id/specialty_image_view"
+		app:layout_constraintTop_toBottomOf="@+id/bubble_image_view" />
+
+	<ImageView
+		android:id="@+id/specialty_image_view"
+		android:layout_width="646dp"
+		android:layout_height="300dp"
+		android:onClick="goOtherRetail"
+		android:scaleType="centerCrop"
+		android:src="@drawable/otherretail_labeled"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/largeBoxes_image_view" />
 
 	<ImageView
 		android:id="@+id/topbarexplore_image_view"
-		android:layout_width="0dp"
-		android:layout_height="wrap_content"
+		android:layout_width="1280dp"
+		android:layout_height="117dp"
 		android:onClick="backFromExplore"
-		android:scaleType="centerCrop"
-		android:src="@drawable/topbarexplore"
+		android:src="@drawable/exploretopbar"
+		app:layout_constraintBottom_toTopOf="@+id/bubble_image_view"
+		app:layout_constraintHorizontal_bias="0.0"
 		app:layout_constraintHorizontal_weight="1"
 		app:layout_constraintLeft_toLeftOf="parent"
 		app:layout_constraintRight_toRightOf="parent"
@@ -64,24 +62,15 @@
 
 	<ImageView
 		android:id="@+id/bottombar_image_view"
-		android:layout_width="0dp"
-		android:layout_height="wrap_content"
+		android:layout_width="1280dp"
+		android:layout_height="80dp"
+		android:background="#ffffff"
+		android:backgroundTint="#FFFFFF"
 		android:onClick="personalAssistantExplore"
-		android:scaleType="centerCrop"
-		android:src="@drawable/bottombar"
+		android:src="@drawable/customerservice"
 		app:layout_constraintBottom_toBottomOf="parent"
-		app:layout_constraintHorizontal_weight="1"
-		app:layout_constraintLeft_toLeftOf="parent"
-		app:layout_constraintRight_toRightOf="parent" />
-
-	<ImageView
-		android:id="@+id/imageView"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_marginTop="50dp"
-		android:layout_marginEnd="50dp"
-		android:onClick="goShop"
 		app:layout_constraintEnd_toEndOf="parent"
-		app:layout_constraintTop_toTopOf="parent"
-		app:srcCompat="@drawable/shopbuttononexplore" />
+		app:layout_constraintHorizontal_bias="0.522"
+		app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

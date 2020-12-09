@@ -1,7 +1,7 @@
-package com.company_name.monday.UploadAPI.Service;
+package com.gbc.monday.UploadAPI.Service;
 
-import com.company_name.monday.UploadAPI.Model.FormaResponse;
-import com.company_name.monday.UploadAPI.Model.RawBody;
+import com.gbc.monday.UploadAPI.Model.FormaResponse;
+import com.gbc.monday.UploadAPI.Model.RawBody;
 
 import retrofit2.Call;
 import retrofit2.http.Body;

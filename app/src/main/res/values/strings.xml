@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Project level resources -->
-    <string name="app_name">monday</string>
+    <string name="app_name">Yaro</string>
 
     <!-- explore -->
     <string name="explore_title"></string>
@@ -22,5 +22,5 @@
     <string name="add_try_on_title"></string>
 
     <!-- menu -->
-    <string name="menu_title"></string>
+    <string name="menu_title">Yaro</string>
 </resources>

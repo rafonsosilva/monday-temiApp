@@ -1,11 +1,11 @@
-package com.company_name.monday.domain;
+package com.gbc.monday.domain;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
 
-import com.company_name.monday.activity.UploadToFormaActivity;
+import com.gbc.monday.activity.UploadToFormaActivity;
 
 import java.io.BufferedInputStream;
 import java.io.File;

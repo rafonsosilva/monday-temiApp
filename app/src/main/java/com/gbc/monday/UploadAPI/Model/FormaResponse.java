@@ -1,4 +1,4 @@
-package com.company_name.monday.UploadAPI.Model;
+package com.gbc.monday.UploadAPI.Model;
 
 import com.google.gson.annotations.SerializedName;
 

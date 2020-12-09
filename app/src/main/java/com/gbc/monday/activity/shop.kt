@@ -2,13 +2,13 @@
  * Created by Joe Taveras.
  */
 
-package com.company_name.monday.activity
+package com.gbc.monday.activity
 
 import android.animation.AnimatorSet
 import android.animation.Keyframe
 import android.animation.ObjectAnimator
 import android.animation.PropertyValuesHolder
-import com.company_name.monday.R
+import com.gbc.monday.R
 import androidx.appcompat.app.AppCompatActivity
 import android.content.Intent
 import android.os.Bundle

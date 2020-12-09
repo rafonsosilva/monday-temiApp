@@ -2,14 +2,14 @@
  * Created by Joe Taveras.
  */
 
-package com.company_name.monday.activity
+package com.gbc.monday.activity
 
 import android.content.Intent
 import android.os.Bundle
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.view.View
-import com.company_name.monday.R
+import com.gbc.monday.R
 import com.robotemi.sdk.Robot
 import com.robotemi.sdk.TtsRequest
 
